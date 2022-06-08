@@ -90,7 +90,7 @@ body {
   background-color: rgba(255, 255, 255, 0);
 }
 
-.btn-delete:focus{
+.btn-delete:focus {
   background-color: red;
 }
 
@@ -150,18 +150,46 @@ button>svg {
   color: white
 }
 
-.text-nav:focus{
+.text-nav:focus {
   color: white;
 }
 
-.text-btn{
+.text-btn {
   color: #3b8ee5;
 }
 
-.text-btn:hover{
-  color:red
+.text-btn:hover {
+  color: red
 }
 
-.text-btn:focus{
+.margin-icon{
+  margin-top: 6px
+}
+
+.text-btn:focus {
   color: red;
+}
+
+.txt-btn-login:hover{
+  color: green
+}
+
+.txt-btn-login:focus{
+  color:green
+}
+
+.filtro {
+  background: rgba(68, 78, 171, 0.493);
+  box-shadow: 14px 14px 34px -5px #000;
+  border-radius: 15px;
+  padding: 15px
+}
+
+.span{
+  display: inline-block;
+  height: 8.5px;
+}
+
+.text-area{
+  resize: none;
 }
